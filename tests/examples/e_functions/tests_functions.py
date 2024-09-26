@@ -7,3 +7,7 @@ class Test_Config(unittest.TestCase):
     def test_configuration(self):
         self.assertEqual(True, test_config())
 
+def test_get_random_number(self):
+    number = get_random_value(1,100)
+    self.assertEqual(True, (number >=1))
+    self.assertEqual(True, (number<=100))
