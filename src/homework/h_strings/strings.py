@@ -1,11 +1,10 @@
-def get_hamming_distance(dna1, dna2): #string parameter 1 and string parameter 2
+def get_hamming_distance(dna1, dna2): 
 
     Lan = len(dna1)
 
-    distance = 0 #start with the o position and count up
-
+    distance = 0 
     for i in range(Lan):
-        if dna1[i] != dna2[i]: #if the two chars are not equal, add 1 to distance
+        if dna1[i] != dna2[i]: 
             distance += 1
 
     return distance
